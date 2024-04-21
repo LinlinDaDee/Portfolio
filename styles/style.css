@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 140;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+body nav {
+  transition: 0.5s ease-in-out;
+}
+body nav ul {
+  display: flex;
+  font-size: 1.2rem;
+  margin-bottom: 0rem;
+}
+body nav ul li {
+  list-style-type: none;
+  margin: 0rem 0.3rem;
+  padding: 0rem 0.5em;
+}
+body nav ul li a {
+  color: black;
+  display: block;
+  text-decoration: none;
+  transition: all 0.15s ease;
+  font-weight: 170;
+}
+body nav ul li a:hover {
+  color: #7f75ad;
+  transform: translateY(-0.15em);
+}
+body nav #about {
+  color: #7f75ad;
+  display: block;
+  text-decoration: none;
+  font-weight: 700;
+}
+body main #hello {
+  color: #7f75ad;
+}
+body main section.main_area {
+  padding: 3rem 0rem;
+}
+body main .img {
+  padding: 0rem 3rem;
+}
+body main section.about-me {
+  background-color: #f6f7fd;
+  padding: 2rem 0rem;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+body main section.about-me section.description {
+  width: 76%;
+}
+body main section.about-me section.description p {
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 2;
+}
+body main section.about-me section.description .progress-bars-area {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+body main section.about-me section.description .progress-bars-area p {
+  color: #7f75ad;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 270;
+}
+body main #h2-title {
+  color: #7f75ad;
+  font-weight: 270;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+body main section.hobby div {
+  margin: 1rem 3rem;
+}
+body main section.hobby div section.ski-img {
+  align-items: center;
+}
+body main #hobby-text {
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 2;
+}
+body main #list-items {
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 2;
+  color: #7f75ad;
+}
+body .navbar.scrolled {
+  background: #f6f7fd;
+  transition: background 500ms;
+}
+@media (max-width: 768px) {
+  body #nav {
+    font-size: 1.1rem;
+  }
+  body #profile-img {
+    max-width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body h1 {
+    font-size: 1.7rem;
+  }
+  body h2 {
+    font-size: 1.6rem;
+  }
+  body .ski-img {
+    padding: 0rem 3rem;
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}/*# sourceMappingURL=style.css.map */

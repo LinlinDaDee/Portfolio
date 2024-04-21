@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 140;
+    font-family: "Nunito", sans-serif
+}
+
+
+
+body {
+    font-family: "Nunito", sans-serif;
+
+
+    nav {
+        transition: 0.5s ease-in-out;
+
+
+
+        ul {
+            display: flex;
+            font-size: 1.2rem;
+            margin-bottom: 0rem;
+
+            li {
+                list-style-type: none;
+                margin: 0rem 0.3rem;
+                padding: 0rem 0.5em;
+
+                a {
+                    color: black;
+                    display: block;
+                    text-decoration: none;
+                    transition: all 0.15s ease;
+                    font-weight: 170;
+
+
+                    &:hover {
+                        color: #7f75ad;
+                        transform: translateY(-0.15em);
+                    }
+
+
+                }
+
+            }
+        }
+
+        #about {
+            color: #7f75ad;
+            display: block;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+    }
+
+
+
+    main {
+
+        #hello {
+            color: #7f75ad;
+        }
+
+        section.main_area {
+            padding: 3rem 0rem;
+        }
+
+        .img {
+            padding: 0rem 3rem;
+        }
+
+        section.about-me {
+            background-color: #f6f7fd;
+            padding: 2rem 0rem;
+            font-family: "Nunito", sans-serif;
+            display: flex;
+            justify-content: center;
+
+            section.description {
+                width: 76%;
+
+                p {
+                    font-size: 1.2rem;
+                    font-weight: 200;
+                    line-height: 2;
+                }
+
+
+                .progress-bars-area {
+                    margin-top: 1rem;
+                    margin-bottom: 1rem;
+
+                    p {
+                        color: #7f75ad;
+                        margin-top: 1rem;
+                        font-size: 1.2rem;
+                        font-weight: 270;
+                    }
+                }
+            }
+        }
+
+        #h2-title {
+            color: #7f75ad;
+            font-weight: 270;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+
+
+
+        section.hobby {
+            div {
+
+                margin: 1rem 3rem;
+
+                section.ski-img {
+                    align-items: center;
+
+
+                }
+
+                section.hobby-list {}
+            }
+        }
+
+        #hobby-text {
+            font-size: 1.2rem;
+            font-weight: 200;
+            line-height: 2;
+        }
+
+        #list-items {
+            font-size: 1.2rem;
+            font-weight: 200;
+            line-height: 2;
+            color: #7f75ad;
+        }
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+    .navbar.scrolled {
+        background: #f6f7fd;
+        transition: background 500ms;
+    }
+
+
+    @media (max-width: 768px) {
+
+        #nav {
+            font-size: 1.1rem;
+
+        }
+
+        #profile-img {
+            max-width: 40%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h1 {
+            font-size: 1.7rem;
+        }
+
+        h2 {
+            font-size: 1.6rem;
+        }
+
+        .ski-img {
+            padding: 0rem 3rem;
+            max-width: 80%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+    }
+}
